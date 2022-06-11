@@ -13,6 +13,11 @@ public class CalculatorExecute {
 
         System.out.println("** Esto es un cambio **");
 
+        int multiplication = c.multiplicacion(11, 2);
+        System.out.println("c.multiplicacion(11, 2) = " + multiplication);
+
+        System.out.println("** Esto es otro cambio **");
+
     }
 
 }

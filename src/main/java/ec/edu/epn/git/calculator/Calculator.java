@@ -17,6 +17,11 @@ public class Calculator {
         return a / b;
     }
 
+    //Metodo nuevo para realizar una multiplicacion
+    public int multiplicacion(int a, int b) {
+        return a * b;
+    }
+
     public void timeout(int time) {
         try {
             Thread.sleep(time);

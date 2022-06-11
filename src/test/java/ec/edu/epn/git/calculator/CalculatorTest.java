@@ -32,6 +32,13 @@ public class CalculatorTest {
         assertEquals(7, c.resta(10, 3));
     }
 
+
+    @Test
+    public void given_two_integers_when_multiplcation_then_ok() {
+        System.out.println("Test 5");
+        assertEquals(22, c.multiplicacion(11, 2));
+    }
+
     @Test(expected = ArithmeticException.class)
     public void given_two_integers_when_division_then_exception() {
         System.out.println("Test 3");
@@ -54,5 +61,6 @@ public class CalculatorTest {
     public static void tearDownClass(){
         System.out.println("tearDownClass()");
     }
+
 
 }
